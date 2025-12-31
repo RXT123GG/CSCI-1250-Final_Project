@@ -259,7 +259,7 @@ internal class LibrarySystem
             // Remove duplicate IDs
             var unique = catalogList
                 .GroupBy(i => i.Id)
-                .Select(g => g.First())
+                .Select(g => g.First()) // Swap to foreach
                 .ToList();
 
             if (unique.Count != catalogList.Count)
