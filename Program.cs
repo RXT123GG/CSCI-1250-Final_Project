@@ -1,13 +1,9 @@
 ﻿using System.Xml.Serialization;
 
-namespace biblioteca // Left off on line 
+namespace biblioteca  
 {
     /*
-    ==== Important Notes ====
-    This is a revamped version of the original Final Project Submission
-    The removal potentially AI-derived code and practices was heavily prioritized, as such, every line was hand-typed.
-    The old project has been used for reference for certain elements of this version, and functionality has been tailored to be as similar as possible
-    
+    The old project has been used for reference for certain elements of this version, and functionality has been tailored to be as similar as 
     */
 
     internal class LibraryItem
